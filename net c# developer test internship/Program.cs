@@ -48,16 +48,11 @@ Console.WriteLine();
 // task 5
 
 
-class Greeting
+
+
+void Greet(string name)
 {
-    public static void name(string name)
-    {
-        Console.WriteLine("Hello, " + name + "!");
-    }
-
-    static void Main(string[] args)
-    {
-        name("Alice");
-    }
-
+    Console.WriteLine("Hello, " + name + "!");
 }
+
+Greet("Alice");
